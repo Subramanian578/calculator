@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dashboard UI</title>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            box-sizing: border-box;
+            background-color: rgb(228, 226, 226);
+        }
+        img{
+            background-color: rgb(228, 226, 226);
+            width: 50px;
+            height: 50px;
+        }
+        .image{
+            display: flex;
+        }
+        .side{
+            background-color: rgb(228, 226, 226);
+            color: black;
+            width: 170px;
+            height: 700px;
+            font-size: medium;
+            padding-left: 10px;
+            border-radius: 10px;
+        }
+        .name{          
+            background-color: rgb(228, 226, 226);
+            color: black;
+        }
+        .names{
+            color: black;
+        }
+        select{
+            border: none;
+        }
+        aside {
+            background-color: rgb(228, 226, 226);
+            width: 170px;
+            float: left;
+        }
+        .shop{
+            font-weight: 700;
+            font-size: large;
+            margin-top: 1.5%;
+        }
+        .links
+        {
+            display: flex;
+            list-style-type: none;
+            gap: 3rem;
+            font-weight: 600;
+        }
+        .nav
+        {
+            background-color: rgb(228, 226, 226);
+            display: flex;
+            justify-content: space-between;
+        }
+        button{
+            color: red;
+            border-color: red;
+            opacity: 50%;
+            border-radius: 5px;
+        }
+        .main,.ff,.fff{
+            padding-left: 1%;
+            background-color: #fff;
+        }
+        .fff{
+            margin-bottom: 1%;
+        }
+    </style>
+
+</head>
+<body>
+    <aside>
+    <div class="image">
+        <img src="man.png" alt="">
+        <h3><b>xaodanpu</b></h3>
+    </div>
+    <div class="side"><br>
+        <i class="fas fa-home"></i>&nbsp;Home<br><br><br>
+        <i class="fas fa-camera"></i>&nbsp;Live<br><br><br>
+        <div class="name"><i class="fas fa-shop" ></i> <select class="name">
+            <option class="page" id="arrow">Shop &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&nbsp;&ensp;&nbsp;</option></select></div><br><br>
+        <div class="names"><i class="fas fa-box"></i> Commodity </div><br><br>
+        <div class="names"><i class="fas fa-book"></i> Order</div><br><br>
+        <div class="names"><i class="fas fa-file"></i> Data </div><br><br>
+        <div class="names"><i class="fas fa-computer"></i> Assests</div><br><br>
+        <div class="name"><i class="fas fa-shop" id="arrow"></i> <select class="name">
+            <option class="page">Application &ensp;&ensp;&ensp;&ensp;&nbsp;&ensp;&nbsp;</option></select ></div><br><br>
+        <div class="names"><i class="fas fa-gear"></i> Set up </div><br><br>
+    </div>
+    </aside>
+    <header>
+        <div class="nav">
+            <div class="shop">Aaki shop <select class="name"></select ><button>Base</button></div>
+            <ul class="links">
+            <div>Notice</div>
+            <div>Help Center</div>
+              <div class="nam"><i class="fas fa-user"></i> <select class="name">
+                <option class="page"></option></select></div>
+            </ul>
+    </header>
+    <main>
+        <div class="main">
+            <h2 class="fff">Well begun is half done</h2>
+            <p class="ff">Complete the following steps to sell</p>
+        </div>
+        </main>
+</body>
+</html>
